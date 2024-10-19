@@ -12,3 +12,9 @@
   height: 150px;
   object-fit: cover;
 }
+
+@media only screen and (max-width: 900px) {
+  .card__body {
+    flex-direction: column;
+  }
+}

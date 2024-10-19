@@ -55,3 +55,9 @@
 .flag {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 900px) {
+  .navbar__body {
+    display: none;
+  }
+}
