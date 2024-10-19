@@ -47,6 +47,7 @@ export default function Main({ language }) {
                 key={index}
                 name={item.name}
                 description={item.description}
+                image={item.image}
               />
             ))}
           </div>

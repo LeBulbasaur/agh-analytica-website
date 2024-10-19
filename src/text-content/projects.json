@@ -7,15 +7,18 @@
     "items": [
       {
         "name": "DeveloperAI",
-        "description": "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+        "description": "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+        "image": "https://picsum.photos/300"
       },
       {
         "name": "ShoeTracker",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+        "image": "https://picsum.photos/300"
       },
       {
         "name": "LoremIpsum",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+        "image": "https://picsum.photos/300"
       }
     ]
   },
@@ -27,15 +30,18 @@
     "items": [
       {
         "name": "DeveloperAI",
-        "description": "Lorem enipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+        "description": "Lorem enipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+        "image": "https://picsum.photos/300"
       },
       {
         "name": "ShoeTracker",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+        "image": "https://picsum.photos/300"
       },
       {
         "name": "LoremIpsum",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+        "image": "https://picsum.photos/300"
       }
     ]
   }
