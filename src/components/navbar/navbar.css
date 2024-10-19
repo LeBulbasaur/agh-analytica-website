@@ -1,0 +1,45 @@
+.navbar__body {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__box {
+  background-color: black;
+  color: white;
+  width: 80%;
+  height: 45%;
+  margin-top: 100px;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.navbar__contents {
+  list-style: none;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.navbar__contents li {
+  margin: 1rem 0;
+}
+
+.navbar__contents__projects {
+  font-weight: 400;
+  list-style: none;
+}
+
+.navbar__language {
+  width: 100%;
+  text-align: end;
+}
+
+.navbar__language p {
+  padding: 0;
+  margin-right: 20px;
+}
