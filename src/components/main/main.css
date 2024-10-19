@@ -1,6 +1,61 @@
 .main__body {
-  flex: 8;
+  flex: 6;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+.main__content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+#information {
+  margin-bottom: 3rem;
+}
+
+#information h1 {
+  font-size: 2rem;
+}
+
+.main__cards__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #555;
 }

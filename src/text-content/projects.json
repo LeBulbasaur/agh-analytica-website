@@ -1,0 +1,42 @@
+{
+  "polish": {
+    "information": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam porro aliquid pariatur quo accusantium voluptatum iure illum ut, nobis iste!"
+    ],
+    "items": [
+      {
+        "name": "DeveloperAI",
+        "description": "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+      },
+      {
+        "name": "ShoeTracker",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+      },
+      {
+        "name": "LoremIpsum",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+      }
+    ]
+  },
+  "english": {
+    "information": [
+      "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+      "Lorem enipsum dolor sit, amet consectetur adipisicing elit. Ipsam porro aliquid pariatur quo accusantium voluptatum iure illum ut, nobis iste!"
+    ],
+    "items": [
+      {
+        "name": "DeveloperAI",
+        "description": "Lorem enipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+      },
+      {
+        "name": "ShoeTracker",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+      },
+      {
+        "name": "LoremIpsum",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt."
+      }
+    ]
+  }
+}

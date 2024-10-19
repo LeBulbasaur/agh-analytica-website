@@ -1,0 +1,14 @@
+.card__body {
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__body img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}

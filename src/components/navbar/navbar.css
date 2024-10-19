@@ -1,7 +1,9 @@
 .navbar__body {
-  flex: 3;
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 33%;
+  max-width: calc(1250px * 0.33);
 }
 
 .navbar__box {
@@ -34,6 +36,12 @@
   list-style: none;
 }
 
+.navbar__contents li a,
+.navbar__contents__projects a {
+  text-decoration: none;
+  color: white;
+}
+
 .navbar__language {
   width: 100%;
   text-align: end;
@@ -42,4 +50,8 @@
 .navbar__language p {
   padding: 0;
   margin-right: 20px;
+}
+
+.flag {
+  cursor: pointer;
 }

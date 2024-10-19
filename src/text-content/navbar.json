@@ -1,0 +1,10 @@
+{
+  "polish": {
+    "contents": "Spis treści",
+    "items": ["Informacje", "Projekty", "Kontakt"]
+  },
+  "english": {
+    "contents": "Contents",
+    "items": ["Information", "Projects", "Contact"]
+  }
+}

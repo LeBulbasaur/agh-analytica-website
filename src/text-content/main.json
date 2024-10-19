@@ -1,0 +1,28 @@
+{
+  "polish": {
+    "information": [
+      "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+      "Lorem plipsum dolor sit, amet consectetur adipisicing elit. Ipsam porro aliquid pariatur quo accusantium voluptatum iure illum ut, nobis iste!"
+    ],
+    "project": "Nasze projekty",
+    "contact": "Kontakt",
+    "contactContent": "Jesteś zainteresowana/y naszymi projektami? Skontaktuj się z nami za pomocą poniższego formularza:",
+    "formName": "Twoje Imię",
+    "formEmail": "Twój Email",
+    "formMessage": "Twoja wiadomość",
+    "formButton": "Wyślij wiadomość"
+  },
+  "english": {
+    "information": [
+      "Lorem enipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
+      "Lorem enipsum dolor sit, amet consectetur adipisicing elit. Ipsam porro aliquid pariatur quo accusantium voluptatum iure illum ut, nobis iste!"
+    ],
+    "project": "Current Projects",
+    "contact": "Contact Us",
+    "contactContent": "Interested in our projects? Get in touch with us using the form below:",
+    "formName": "Your Name",
+    "formEmail": "Your Email",
+    "formMessage": "Your Message",
+    "formButton": "Send Message"
+  }
+}
