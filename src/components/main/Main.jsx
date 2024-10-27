@@ -2,6 +2,8 @@ import "./main.css";
 import Card from "../card/Card";
 import projectsText from "../../text-content/projects.json";
 import mainText from "../../text-content/main.json";
+import logo from "../../img/analytica_logo1.png";
+import textLogo from "../../img/text-logo.png";
 import "animate.css";
 
 export default function Main({ language }) {
@@ -12,29 +14,13 @@ export default function Main({ language }) {
 
   return (
     <div className="main__body animate__animated animate__slideInRight">
-      <div className="header-graphic">
-        <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
-          <rect width="100%" height="100%" fill="#fff" />
-          <circle cx="400" cy="100" r="80" fill="#1E1E1E" />
-          <path
-            d="M340 100 Q400 40 460 100 T580 100"
-            stroke="#00693C"
-            strokeWidth="4"
-            fill="none"
-          />
-          <path
-            d="M220 100 Q400 180 580 100"
-            stroke="#A71930"
-            strokeWidth="4"
-            fill="none"
-          />
-          <circle cx="220" cy="100" r="20" fill="#1E1E1E" />
-          <circle cx="580" cy="100" r="20" fill="#1E1E1E" />
-        </svg>
+      <div className="header__graphic">
+        <img className="image__logo" src={logo} alt="club logo" />
+        <img className="text__logo" src={textLogo} alt="club logo" />
       </div>
       <div className="main__content">
         <section id="information">
-          <h1>AGH Analytica</h1>
+          <h2>{main.about}</h2>
           {main.information.map((item, index) => (
             <p key={index}>{item}</p>
           ))}
