@@ -2,8 +2,7 @@
   "polish": {
     "about": "O nas",
     "information": [
-      "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-      "Lorem plipsum dolor sit, amet consectetur adipisicing elit. Ipsam porro aliquid pariatur quo accusantium voluptatum iure illum ut, nobis iste!"
+      "Koło Naukowe AGH Analytica to nowo powstała organizacja na Akademii Górniczo-Hutniczej, która skupia pasjonatów analizy danych oraz nowoczesnych technologii. Nasze działania koncentrują się na innowacyjnych projektach, które pozwalają członkom rozwijać swoje umiejętności w analizie map i zdjęć satelitarnych, danych giełdowych, obrazu oraz w pracy z modelami językowymi Large Language Models (LLM)."
     ],
     "project": "Nasze projekty",
     "contact": "Kontakt",
@@ -16,8 +15,7 @@
   "english": {
     "about": "About us",
     "information": [
-      "Lorem enipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-      "Lorem enipsum dolor sit, amet consectetur adipisicing elit. Ipsam porro aliquid pariatur quo accusantium voluptatum iure illum ut, nobis iste!"
+      "AGH Analytica is a newly established student organization at AGH University of Science and Technology, bringing together enthusiasts of data analysis and cutting-edge technologies. Our activities focus on innovative projects that allow members to develop their skills in satellite imagery and map analysis, stock market data analysis, image analysis and working with Large Language Models (LLMs)."
     ],
     "project": "Current Projects",
     "contact": "Contact Us",

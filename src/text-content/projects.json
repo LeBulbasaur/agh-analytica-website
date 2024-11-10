@@ -2,38 +2,92 @@
   "polish": {
     "items": [
       {
-        "name": "DeveloperAI",
-        "description": "Lorem plipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-        "image": "https://picsum.photos/300"
+        "name": "Analytica Developers’ Chat",
+        "description": [
+          {
+            "header": "O projekcie:",
+            "text": "Ten projekt ma na celu stworzenie aplikacji dla deweloperów z wykorzystaniem modeli językowych. Użytkownik będzie opisywał interesujące go parametry geograficzne działki (tj. odległość od cieków wodnych, ułożenie terenu, położenie słońca, wielkość działki, lokalizacji itd.), następnie będzie to przetwarzane przez model językowy, analizowane na podstawie baz danych, map oraz położenia słońca, aby finalnie zwrócić kilkadziesiąt działek spełniających wymagania."
+          },
+          {
+            "header": "Dla kogo?",
+            "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w zakresie analizy parametrów geograficznych, baz danych, zdjęć satelitarnych, a przede wszystkim modeli językowych. Tu możesz stworzyć swój własny ChatGPT!"
+          }
+        ],
+        "image": "https://picsum.photos/500/300"
       },
       {
-        "name": "ShoeTracker",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-        "image": "https://picsum.photos/300"
+        "name": "Traseology by Analytica",
+        "description": [
+          {
+            "header": "O projekcie:",
+            "text": "Projekt ten ma na celu stworzenie aplikacji, która będzie opierała się na analizie obrazu i dopasowywała ślady traseologiczne (fragmenty podeszwy buta) do konkretnego modelu obuwia. W ramach tego przedsięwzięcia będziemy starać się o współpracę z policją w celu uzyskania potrzebnej bazy danych."
+          },
+          {
+            "header": "Dla kogo?",
+            "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w dziedzinie analizy obrazów oraz zainteresowanych kryminalistyką. Sherlock Holmes? – A po co to komu?"
+          }
+        ],
+        "image": "https://picsum.photos/500/300"
       },
       {
-        "name": "LoremIpsum",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-        "image": "https://picsum.photos/300"
+        "name": "Analytica Investments",
+        "description": [
+          {
+            "header": "O projekcie:",
+            "text": "Projekt ten ma na celu stworzenie aplikacji, która na podstawie algorytmów będzie doradzała w zakresie inwestycji giełdowych. Będziemy chcieli również rozbudować program o moduł sztucznej inteligencji, którego celem będzie uczenie się i samodzielne podejmowanie decyzji giełdowych."
+          },
+          {
+            "header": "Dla kogo?",
+            "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w obszarze analizy danych giełdowych oraz sztucznej inteligencji. Bo pierwszego miliona nie trzeba ukraść!"
+          }
+        ],
+        "image": "https://picsum.photos/500/300"
       }
     ]
   },
   "english": {
     "items": [
       {
-        "name": "DeveloperAI",
-        "description": "Lorem enipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-        "image": "https://picsum.photos/300"
+        "name": "Developers’ Chat",
+        "description": [
+          {
+            "header": "About the Project:",
+            "text": "This project aims to create an application for developers utilizing language models. Users will be able to specify geographic parameters for a plot (such as proximity to water bodies, terrain layout, sun positioning, plot size, location, etc.), which will then be processed by a language model. Based on data from databases, maps, and solar positioning, the application will ultimately return a selection of plots that meet the specified criteria."
+          },
+          {
+            "header": "Who is it for?",
+            "text": "For those looking to gain knowledge and develop skills in geographic parameter analysis, database management, satellite imagery, and, above all, language models. Here, you have the opportunity to create your very own ChatGPT!"
+          }
+        ],
+        "image": "https://picsum.photos/500/300"
       },
       {
-        "name": "ShoeTracker",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-        "image": "https://picsum.photos/300"
+        "name": "Traseology by Analytica",
+        "description": [
+          {
+            "header": "About the Project:",
+            "text": "This project aims to develop an application based on image analysis that matches forensic shoeprint fragments (parts of a shoe’s sole) to specific shoe models. As part of this initiative, we will seek collaboration with the police to gain access to the necessary database."
+          },
+          {
+            "header": "Who is it for?",
+            "text": "For those looking to gain knowledge and develop skills in image analysis, as well as for anyone interested in forensic science. Sherlock Holmes? Who needs him with us around?"
+          }
+        ],
+        "image": "https://picsum.photos/500/300"
       },
       {
-        "name": "LoremIpsum",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam praesentium saepe vel cupiditate, quae quam vitae excepturi voluptatem ducimus asperiores dicta sed omnis exercitationem laudantium nobis repellendus quasi sunt.",
-        "image": "https://picsum.photos/300"
+        "name": "Analytica Investments",
+        "description": [
+          {
+            "header": "About the Project:",
+            "text": "This project aims to develop an application that uses algorithms to provide advice on stock market investments. We also plan to expand the program with an AI module designed to learn and make independent trading decisions."
+          },
+          {
+            "header": "Who is it for?",
+            "text": "For those looking to gain knowledge and develop skills in stock data analysis and artificial intelligence. After all, you don’t have to steal your first million!"
+          }
+        ],
+        "image": "https://picsum.photos/500/300"
       }
     ]
   }
