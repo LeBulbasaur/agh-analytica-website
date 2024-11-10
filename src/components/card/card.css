@@ -19,4 +19,9 @@
   .card__body {
     flex-direction: column;
   }
+
+  .card__body img {
+    width: 250px;
+    height: 150px;
+  }
 }

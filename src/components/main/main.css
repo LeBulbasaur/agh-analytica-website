@@ -50,6 +50,12 @@
   margin-bottom: 2rem;
 }
 
+#mail__paragraph {
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
 form {
   width: 100%;
   display: flex;

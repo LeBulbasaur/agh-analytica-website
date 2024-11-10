@@ -41,8 +41,10 @@ export default function Main({ language }) {
         <section id="contact">
           <div className="contact__form">
             <h2>{main.contact}</h2>
-            <p>{main.contactContent}</p>
-            <form
+            <p>{main.contactContentNoForm}</p>
+            <p id="mail__paragraph">{main.mail}</p>
+            {/* <p>{main.contactContent}</p> */}
+            {/* <form
               id="contact-form"
               action="mailto:samociw626@digopm.com"
               method="POST"
@@ -70,7 +72,7 @@ export default function Main({ language }) {
               <button type="submit" value="Submit">
                 {main.formButton}
               </button>
-            </form>
+            </form> */}
           </div>
         </section>
       </div>

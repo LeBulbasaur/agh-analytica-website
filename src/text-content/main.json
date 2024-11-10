@@ -10,7 +10,9 @@
     "formName": "Twoje Imię",
     "formEmail": "Twój Email",
     "formMessage": "Twoja wiadomość",
-    "formButton": "Wyślij wiadomość"
+    "formButton": "Wyślij wiadomość",
+    "contactContentNoForm": "Jesteś zainteresowana/y naszymi projektami? Skontaktuj się z nami poprzez poniższy adres e-mail:",
+    "mail": "tempMail[małpa]student.agh.edu.pl"
   },
   "english": {
     "about": "About us",
@@ -23,6 +25,8 @@
     "formName": "Your Name",
     "formEmail": "Your Email",
     "formMessage": "Your Message",
-    "formButton": "Send Message"
+    "formButton": "Send Message",
+    "contactContentNoForm": "Interested in our projects? Please contact us using the email address below:",
+    "mail": "tempMail[at]student.agh.edu.pl"
   }
 }

@@ -52,11 +52,11 @@
         "description": [
           {
             "header": "About the Project:",
-            "text": "This project aims to create an application for developers utilizing language models. Users will be able to specify geographic parameters for a plot (such as proximity to water bodies, terrain layout, sun positioning, plot size, location, etc.), which will then be processed by a language model. Based on data from databases, maps, and solar positioning, the application will ultimately return a selection of plots that meet the specified criteria."
+            "text": "This project aims to create an application for developers utilizing language models. Users will be able to specify geographic parameters for a plot (such as proximity to water bodies, terrain layout, sun positioning, plot size, location, etc.), which will then be processed by a language model. Based on data from databases, maps and solar positioning, the application will ultimately return a selection of plots that meet the specified criteria."
           },
           {
             "header": "Who is it for?",
-            "text": "For those looking to gain knowledge and develop skills in geographic parameter analysis, database management, satellite imagery, and, above all, language models. Here, you have the opportunity to create your very own ChatGPT!"
+            "text": "For those looking to gain knowledge and develop skills in geographic parameter analysis, database management, satellite imagery and above all, language models. Here, you have the opportunity to create your very own ChatGPT!"
           }
         ],
         "image": "https://picsum.photos/500/300"
