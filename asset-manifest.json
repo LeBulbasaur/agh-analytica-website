@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/agh-analytica-website/static/css/main.7b47e0c7.css",
-    "main.js": "/agh-analytica-website/static/js/main.349c851b.js",
+    "main.css": "/agh-analytica-website/static/css/main.38f27c90.css",
+    "main.js": "/agh-analytica-website/static/js/main.6865f7e3.js",
     "static/media/analytica_logo1.png": "/agh-analytica-website/static/media/analytica_logo1.d134f4e53fccc0cb8ade.png",
     "static/media/text-logo.png": "/agh-analytica-website/static/media/text-logo.67250ab7453ce1bbf33e.png",
     "index.html": "/agh-analytica-website/index.html",
-    "main.7b47e0c7.css.map": "/agh-analytica-website/static/css/main.7b47e0c7.css.map",
-    "main.349c851b.js.map": "/agh-analytica-website/static/js/main.349c851b.js.map"
+    "main.38f27c90.css.map": "/agh-analytica-website/static/css/main.38f27c90.css.map",
+    "main.6865f7e3.js.map": "/agh-analytica-website/static/js/main.6865f7e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b47e0c7.css",
-    "static/js/main.349c851b.js"
+    "static/css/main.38f27c90.css",
+    "static/js/main.6865f7e3.js"
   ]
 }
