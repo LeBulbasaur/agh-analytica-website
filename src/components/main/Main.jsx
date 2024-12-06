@@ -1,12 +1,16 @@
 import "./main.css";
+import "animate.css";
+import { useContext } from "react";
+import { LanguageContext } from "../../context/context";
 import Card from "../card/Card";
 import projectsText from "../../text-content/projects.json";
 import mainText from "../../text-content/main.json";
 import logo from "../../img/analytica_logo1.png";
 import textLogo from "../../img/text-logo.png";
-import "animate.css";
 
-export default function Main({ language }) {
+export default function Main() {
+  const { language } = useContext(LanguageContext);
+
   const projects =
     language === "polish" ? projectsText.polish : projectsText.english;
 
@@ -43,36 +47,6 @@ export default function Main({ language }) {
             <h2>{main.contact}</h2>
             <p>{main.contactContentNoForm}</p>
             <p id="mail__paragraph">{main.mail}</p>
-            {/* <p>{main.contactContent}</p> */}
-            {/* <form
-              id="contact-form"
-              action="mailto:samociw626@digopm.com"
-              method="POST"
-              encType="multipart/form-data"
-            >
-              <input
-                type="text"
-                id="name"
-                placeholder={main.formName}
-                required
-              />
-              <input
-                type="email"
-                id="email"
-                placeholder={main.formEmail}
-                required
-              />
-              <textarea
-                id="message"
-                placeholder={main.formMessage}
-                rows="5"
-                resize="none"
-                required
-              ></textarea>
-              <button type="submit" value="Submit">
-                {main.formButton}
-              </button>
-            </form> */}
           </div>
         </section>
       </div>

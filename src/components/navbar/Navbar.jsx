@@ -1,9 +1,12 @@
 import "./navbar.css";
+import "animate.css";
 import textContent from "../../text-content/navbar.json";
 import textProjects from "../../text-content/projects.json";
-import "animate.css";
+import { LanguageContext } from "../../context/context";
+import { useContext } from "react";
 
-export default function Navbar({ language, setLanguage }) {
+export default function Navbar() {
+  const { language, setLanguage } = useContext(LanguageContext);
   const text = language === "polish" ? textContent.polish : textContent.english;
 
   return (
@@ -34,13 +37,19 @@ export default function Navbar({ language, setLanguage }) {
           <p>
             <span
               className="flag lang_polish"
-              onClick={() => setLanguage("polish")}
+              onClick={() => {
+                setLanguage("polish");
+                window.localStorage.setItem("language", "polish");
+              }}
             >
               🇵🇱
             </span>{" "}
             <span
               className="flag lang_english"
-              onClick={() => setLanguage("english")}
+              onClick={() => {
+                setLanguage("english");
+                window.localStorage.setItem("language", "english");
+              }}
             >
               🇬🇧
             </span>
