@@ -1,0 +1,10 @@
+#recruitment__form {
+  border: none;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.iframe__container {
+  display: flex;
+  justify-content: center;
+}

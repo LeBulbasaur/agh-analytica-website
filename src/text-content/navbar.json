@@ -1,10 +1,10 @@
 {
   "polish": {
     "contents": "Spis treści",
-    "items": ["Informacje", "Projekty", "Kontakt"]
+    "items": ["Informacje", "Projekty:", "Rekrutacja", "Kontakt"]
   },
   "english": {
     "contents": "Contents",
-    "items": ["Information", "Projects", "Contact"]
+    "items": ["Information", "Projects:", "Recruitment", "Contact"]
   }
 }

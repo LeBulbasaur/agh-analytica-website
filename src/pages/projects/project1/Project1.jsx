@@ -1,19 +1,22 @@
 import "./project1.css";
-import Main from "../../../components/main/Main";
-import Navbar from "../../../components/navbar/Navbar";
+import { useContext } from "react";
+import { LanguageContext } from "../../../context/context";
+import projectsText from "../../../text-content/projects.json";
+import Card from "../../../components/card/Card";
 
 function Project1() {
+  const { language } = useContext(LanguageContext);
+  const projects =
+    language === "polish" ? projectsText.polish : projectsText.english;
+
+  const content = projects.items[0];
+
   return (
-    <div className="App">
-      <div className="App__content">
-        <Navbar />
-        <div className="navbar__imitation" />
-        <Main />
-      </div>
-      <footer>
-        <p>@2024 AGH Analytica</p>
-      </footer>
-    </div>
+    <Card
+      name={content.name}
+      description={content.description}
+      image={content.image}
+    />
   );
 }
 

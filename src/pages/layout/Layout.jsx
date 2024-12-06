@@ -1,19 +1,13 @@
 import "./layout.css";
 import "animate.css";
-import { useContext } from "react";
-import { LanguageContext } from "../../context/context";
+import { Outlet } from "react-router-dom";
 
 import Navbar from "../../components/navbar/Navbar";
 
-import mainText from "../../text-content/main.json";
 import logo from "../../img/analytica_logo1.png";
 import textLogo from "../../img/text-logo.png";
 
 function Layout() {
-  const { language } = useContext(LanguageContext);
-
-  const main = language === "polish" ? mainText.polish : mainText.english;
-
   return (
     <div className="Layout">
       <div className="Layout__content">
@@ -25,12 +19,7 @@ function Layout() {
             <img className="text__logo" src={textLogo} alt="club logo" />
           </div>
           <div className="main__content">
-            <section id="information">
-              <h2>{main.about}</h2>
-              {main.information.map((item, index) => (
-                <p key={index}>{item}</p>
-              ))}
-            </section>
+            <Outlet />
           </div>
         </div>
       </div>

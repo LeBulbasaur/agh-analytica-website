@@ -43,6 +43,16 @@
   color: white;
 }
 
+.navbar__contents li a:hover,
+.navbar__contents__projects a:hover {
+  text-decoration: underline;
+}
+
+.navbar__projects {
+  padding: 0;
+  margin: 0;
+}
+
 .navbar__language {
   width: 100%;
   text-align: end;

@@ -1,5 +1,4 @@
 import "./navbar.css";
-import "animate.css";
 import textContent from "../../text-content/navbar.json";
 import textProjects from "../../text-content/projects.json";
 import { LanguageContext } from "../../context/context";
@@ -11,26 +10,29 @@ export default function Navbar() {
 
   return (
     <div className="navbar__body">
-      <div className="navbar__box animate__animated animate__slideInDown">
+      <div className="navbar__box">
         <p>{text.contents}</p>
         <ol className="navbar__contents">
           <li>
-            <a href="#information">{text.items[0]}</a>
+            <a href="/">{text.items[0]}</a>
           </li>
           <li>
-            <a href="#projects">{text.items[1]}</a>
+            <p className="navbar__projects">{text.items[1]}</p>
           </li>
           <li>
             <ul className="navbar__contents__projects">
               {textProjects.english.items.map((item, index) => (
                 <li key={index}>
-                  - <a href={"#" + item.name}>{item.name}</a>
+                  - <a href={`project${index + 1}`}>{item.name}</a>
                 </li>
               ))}
             </ul>
           </li>
           <li>
-            <a href="#contact">{text.items[2]}</a>
+            <a href="/recruitment">{text.items[2]}</a>
+          </li>
+          <li>
+            <a href="/#contact">{text.items[3]}</a>
           </li>
         </ol>
         <div className="navbar__language">

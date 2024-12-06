@@ -10,8 +10,8 @@
 }
 
 .card__body img {
-  width: 500px;
-  height: 300px;
+  width: 375px;
+  height: 200px;
   object-fit: cover;
 }
 
