@@ -2,14 +2,25 @@ import "./navbar.css";
 import textContent from "../../text-content/navbar.json";
 import textProjects from "../../text-content/projects.json";
 import { LanguageContext } from "../../context/context";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
-export default function Navbar() {
+export default function Navbar({ hidden }) {
   const { language, setLanguage } = useContext(LanguageContext);
+
+  useEffect(() => {
+    console.log(hidden);
+  }, [hidden]);
+
   const text = language === "polish" ? textContent.polish : textContent.english;
 
   return (
-    <div className="navbar__body">
+    <div
+      className="navbar__body"
+      style={{
+        // transform: hidden ? "translateX(-100%)" : "translateX(0)",
+        display: hidden ? "none" : "flex",
+      }}
+    >
       <div className="navbar__box">
         <p>{text.contents}</p>
         <ol className="navbar__contents">

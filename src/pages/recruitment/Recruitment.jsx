@@ -18,13 +18,9 @@ function Recruitment() {
           width="640px"
           height="480px"
           src="https://forms.office.com/Pages/ResponsePage.aspx?id=PwOxgOAhgkq7wPBf3M07yPOzoSbdEtlGrXP-YcZGUXdUNVVJMkMxWTlUUExIVDdVRlU2S080QUlaVi4u&embed=true"
-          frameborder="0"
-          marginwidth="0"
-          marginheight="0"
-          allowfullscreen
-          webkitallowfullscreen
-          mozallowfullscreen
-          msallowfullscreen
+          frameBorder="0"
+          marginWidth="0"
+          marginHeight="0"
         >
           {" "}
         </iframe>
