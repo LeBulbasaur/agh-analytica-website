@@ -21,7 +21,7 @@ function Home() {
         <p>{main.contactContent}</p>
         <form
           id="contact-form"
-          action="mailto:samociw626@digopm.com"
+          action="mailto:aszawat@wp.pl"
           method="POST"
           encType="multipart/form-data"
         >
