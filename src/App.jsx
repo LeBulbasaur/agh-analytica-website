@@ -25,7 +25,7 @@ function App() {
 
   useEffect(() => {
     if (!window.localStorage.getItem("language")) {
-      window.localStorage.setItem("language", "english");
+      window.localStorage.setItem("language", "polish");
     }
   }, []);
 
