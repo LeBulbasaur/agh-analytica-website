@@ -1,9 +1,8 @@
 .Layout {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* overflow-x: hidden; */
   align-items: center;
 }
 .Layout__content {
@@ -50,14 +49,14 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   box-sizing: border-box;
   padding: 0 1.5rem;
 }
 
 .image__logo {
-  width: 200px;
+  width: 150px;
 }
 
 .text__logo {
