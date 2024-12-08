@@ -87,14 +87,15 @@ footer {
   gap: 0.5rem;
   box-sizing: border-box;
   font-size: smaller;
+  box-sizing: border-box;
+  padding: 0.5rem 0;
 }
+
 footer p {
   margin: 0;
 }
 
 footer a {
-  left: 1rem;
-  /* text-decoration: none; */
   color: white;
 }
 
