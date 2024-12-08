@@ -14,7 +14,7 @@ function App() {
   const [language, setLanguage] = useState(
     window.localStorage.getItem("language")
       ? window.localStorage.getItem("language")
-      : "english"
+      : "polish"
   );
 
   const [navbar, setNavbar] = useState(
