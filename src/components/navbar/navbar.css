@@ -70,11 +70,13 @@
 
 @media only screen and (max-width: 900px) {
   .navbar__body {
-    position: relative;
+    position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     transition: 1s;
+    max-width: none;
   }
 
   .navbar__box {

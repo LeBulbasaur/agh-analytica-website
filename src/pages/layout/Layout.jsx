@@ -1,29 +1,34 @@
 import "./layout.css";
 import "animate.css";
 import { Outlet } from "react-router-dom";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { NavbarContext } from "../../context/context";
 
 import Navbar from "../../components/navbar/Navbar";
 
 import logo from "../../img/analytica_logo1.png";
 import textLogo from "../../img/text-logo.png";
 import menuDark from "../../img/menu-dark.png";
-import menuLight from "../../img/menu-light.png";
 
 function Layout() {
-  const [hidden, setHidden] = useState(
-    window.Screen.width < 900 ? true : false
-  );
+  const [isAnimating, setIsAnimating] = useState(false);
+  const { navbar, setNavbar } = useContext(NavbarContext);
+
+  const handleClick = () => {
+    setIsAnimating(true);
+    setNavbar(!navbar);
+    setTimeout(() => setIsAnimating(false), 1000); // Czas trwania animacji w ms
+  };
 
   return (
     <div className="Layout">
       <div className="Layout__content">
-        <Navbar hidden={hidden} />
+        <Navbar />
         <div
-          className="navbar__burgir"
-          onClick={() => {
-            setHidden(!hidden);
-          }}
+          className={`navbar__burgir ${
+            isAnimating ? "animate__animated animate__swing" : ""
+          }`}
+          onClick={handleClick}
         >
           <img src={menuDark} alt="menu icon" />
         </div>

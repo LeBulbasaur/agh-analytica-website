@@ -15,8 +15,7 @@ function Recruitment() {
       <div className="iframe__container">
         <iframe
           title="recuitment from"
-          width="640px"
-          height="480px"
+          // src="https://www.onet.pl"
           src="https://forms.office.com/Pages/ResponsePage.aspx?id=PwOxgOAhgkq7wPBf3M07yPOzoSbdEtlGrXP-YcZGUXdUNVVJMkMxWTlUUExIVDdVRlU2S080QUlaVi4u&embed=true"
           frameBorder="0"
           marginWidth="0"

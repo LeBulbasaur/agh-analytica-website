@@ -1,15 +1,24 @@
 import "./navbar.css";
 import textContent from "../../text-content/navbar.json";
 import textProjects from "../../text-content/projects.json";
-import { LanguageContext } from "../../context/context";
-import { useContext, useEffect } from "react";
+import { LanguageContext, NavbarContext } from "../../context/context";
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { useWindowSize } from "../../hooks/useWindowSize";
 
-export default function Navbar({ hidden }) {
+export default function Navbar() {
+  const navigate = useNavigate();
+  const [width] = useWindowSize();
   const { language, setLanguage } = useContext(LanguageContext);
+  const { navbar, setNavbar } = useContext(NavbarContext);
 
-  useEffect(() => {
-    console.log(hidden);
-  }, [hidden]);
+  const navigateSite = (e, path) => {
+    e.preventDefault();
+    navigate(path);
+    if (width < 900) {
+      setNavbar(!navbar);
+    }
+  };
 
   const text = language === "polish" ? textContent.polish : textContent.english;
 
@@ -17,15 +26,16 @@ export default function Navbar({ hidden }) {
     <div
       className="navbar__body"
       style={{
-        // transform: hidden ? "translateX(-100%)" : "translateX(0)",
-        display: hidden ? "none" : "flex",
+        transform: navbar ? "translateX(-100%)" : "none",
       }}
     >
       <div className="navbar__box">
         <p>{text.contents}</p>
         <ol className="navbar__contents">
           <li>
-            <a href="/">{text.items[0]}</a>
+            <a href="/" onClick={(e) => navigateSite(e, "/")}>
+              {text.items[0]}
+            </a>
           </li>
           <li>
             <p className="navbar__projects">{text.items[1]}</p>
@@ -34,16 +44,29 @@ export default function Navbar({ hidden }) {
             <ul className="navbar__contents__projects">
               {textProjects.english.items.map((item, index) => (
                 <li key={index}>
-                  - <a href={`project${index + 1}`}>{item.name}</a>
+                  -{" "}
+                  <a
+                    href={`project${index + 1}`}
+                    onClick={(e) => navigateSite(e, `project${index + 1}`)}
+                  >
+                    {item.name}
+                  </a>
                 </li>
               ))}
             </ul>
           </li>
           <li>
-            <a href="/recruitment">{text.items[2]}</a>
+            <a
+              href="/recruitment"
+              onClick={(e) => navigateSite(e, "/recruitment")}
+            >
+              {text.items[2]}
+            </a>
           </li>
           <li>
-            <a href="/#contact">{text.items[3]}</a>
+            <a href="/#contact" onClick={(e) => navigateSite(e, "/#contact")}>
+              {text.items[3]}
+            </a>
           </li>
         </ol>
         <div className="navbar__language">

@@ -7,4 +7,21 @@
 .iframe__container {
   display: flex;
   justify-content: center;
+  height: 100%;
+}
+
+.iframe__container iframe {
+  width: 640px;
+  height: 480px;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  #recruitment__form {
+    height: 100%;
+  }
+  .iframe__container iframe {
+    width: 100%;
+    height: auto;
+  }
 }

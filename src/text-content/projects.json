@@ -13,7 +13,7 @@
             "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w zakresie analizy parametrów geograficznych, baz danych, zdjęć satelitarnych, a przede wszystkim modeli językowych. Tu możesz stworzyć swój własny ChatGPT!"
           }
         ],
-        "image": "https://picsum.photos/500/300"
+        "image": "/img/developer.jpg"
       },
       {
         "name": "Traseology by Analytica",
@@ -27,7 +27,7 @@
             "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w dziedzinie analizy obrazów oraz zainteresowanych kryminalistyką. Sherlock Holmes? – A po co to komu?"
           }
         ],
-        "image": "https://picsum.photos/500/300"
+        "image": "/img/traseology.jpg"
       },
       {
         "name": "Analytica Investments",
@@ -41,7 +41,7 @@
             "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w obszarze analizy danych giełdowych oraz sztucznej inteligencji. Bo pierwszego miliona nie trzeba ukraść!"
           }
         ],
-        "image": "https://picsum.photos/500/300"
+        "image": "/img/stock.jpg"
       }
     ]
   },
@@ -59,7 +59,7 @@
             "text": "For those looking to gain knowledge and develop skills in geographic parameter analysis, database management, satellite imagery and above all, language models. Here, you have the opportunity to create your very own ChatGPT!"
           }
         ],
-        "image": "https://picsum.photos/500/300"
+        "image": "/img/developer.jpg"
       },
       {
         "name": "Traseology by Analytica",
@@ -73,7 +73,7 @@
             "text": "For those looking to gain knowledge and develop skills in image analysis, as well as for anyone interested in forensic science. Sherlock Holmes? Who needs him with us around?"
           }
         ],
-        "image": "https://picsum.photos/500/300"
+        "image": "/img/traseology.jpg"
       },
       {
         "name": "Analytica Investments",
@@ -87,7 +87,7 @@
             "text": "For those looking to gain knowledge and develop skills in stock data analysis and artificial intelligence. After all, you don’t have to steal your first million!"
           }
         ],
-        "image": "https://picsum.photos/500/300"
+        "image": "/img/stock.jpg"
       }
     ]
   }

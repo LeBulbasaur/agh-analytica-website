@@ -15,18 +15,19 @@
 }
 
 .navbar__burgir {
-  width: 40px;
-  height: 40px;
-  background-color: white;
   position: absolute;
   top: 25px;
   right: 20px;
-  z-index: 4;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  background-color: white;
   border: 2px solid black;
+  cursor: pointer;
+  z-index: 4;
 }
 
 .navbar__burgir img {

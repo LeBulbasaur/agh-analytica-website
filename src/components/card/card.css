@@ -18,6 +18,7 @@
 @media only screen and (max-width: 900px) {
   .card__body {
     flex-direction: column;
+    margin: 1rem 0;
   }
 
   .card__body img {
