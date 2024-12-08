@@ -3,16 +3,22 @@ import "animate.css";
 import { Outlet } from "react-router-dom";
 import { useContext, useState } from "react";
 import { NavbarContext } from "../../context/context";
+import { LanguageContext } from "../../context/context";
 
 import Navbar from "../../components/navbar/Navbar";
 
 import logo from "../../img/analytica_logo1.png";
 import textLogo from "../../img/text-logo.png";
 import menuDark from "../../img/menu-dark.png";
+import statuteText from "../../text-content/statute.json";
 
 function Layout() {
   const [isAnimating, setIsAnimating] = useState(false);
   const { navbar, setNavbar } = useContext(NavbarContext);
+  const { language } = useContext(LanguageContext);
+
+  const statute =
+    language === "polish" ? statuteText.polish : statuteText.english;
 
   const handleClick = () => {
     setIsAnimating(true);
@@ -47,6 +53,7 @@ function Layout() {
       </div>
       <footer>
         <p>@2024 AGH Analytica</p>
+        <a href="/files/Regulamin.pdf">{statute.text}</a>
       </footer>
     </div>
   );

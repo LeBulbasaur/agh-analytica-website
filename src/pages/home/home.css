@@ -1,9 +1,15 @@
 #information {
   margin-bottom: 3rem;
+  width: 100%;
 }
 
 #information h1 {
   font-size: 2rem;
+}
+
+.main__statute {
+  width: 100%;
+  text-align: center;
 }
 
 .contact__form {
