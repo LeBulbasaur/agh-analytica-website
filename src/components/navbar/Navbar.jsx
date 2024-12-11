@@ -14,6 +14,9 @@ export default function Navbar() {
 
   const navigateSite = (e, path) => {
     e.preventDefault();
+    if (path !== "/#contact") {
+      window.scrollTo(0, 0);
+    }
     navigate(path);
     if (width < 900) {
       setNavbar(!navbar);
