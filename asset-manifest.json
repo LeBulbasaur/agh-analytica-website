@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.19cbbd36.css",
-    "main.js": "/static/js/main.5b007a22.js",
+    "main.css": "/static/css/main.ed25b55a.css",
+    "main.js": "/static/js/main.43ca455d.js",
+    "static/media/analytica_logo1-white.png": "/static/media/analytica_logo1-white.afaf46ddffa75c18d248.png",
     "static/media/analytica_logo1.png": "/static/media/analytica_logo1.d134f4e53fccc0cb8ade.png",
+    "static/media/text-logo-white.png": "/static/media/text-logo-white.0d81a92afd9e1e77d3ca.png",
     "static/media/text-logo.png": "/static/media/text-logo.67250ab7453ce1bbf33e.png",
     "index.html": "/index.html",
-    "main.19cbbd36.css.map": "/static/css/main.19cbbd36.css.map",
-    "main.5b007a22.js.map": "/static/js/main.5b007a22.js.map"
+    "main.ed25b55a.css.map": "/static/css/main.ed25b55a.css.map",
+    "main.43ca455d.js.map": "/static/js/main.43ca455d.js.map"
   },
   "entrypoints": [
-    "static/css/main.19cbbd36.css",
-    "static/js/main.5b007a22.js"
+    "static/css/main.ed25b55a.css",
+    "static/js/main.43ca455d.js"
   ]
 }
