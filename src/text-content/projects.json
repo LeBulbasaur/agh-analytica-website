@@ -16,20 +16,6 @@
         "image": "/img/developer.jpg"
       },
       {
-        "name": "Traseology by Analytica",
-        "description": [
-          {
-            "header": "O projekcie:",
-            "text": "Projekt ten ma na celu stworzenie aplikacji, która będzie opierała się na analizie obrazu i dopasowywała ślady traseologiczne (fragmenty podeszwy buta) do konkretnego modelu obuwia. W ramach tego przedsięwzięcia będziemy starać się o współpracę z policją w celu uzyskania potrzebnej bazy danych."
-          },
-          {
-            "header": "Dla kogo?",
-            "text": "Dla osób chcących zdobywać wiedzę i rozwijać się w dziedzinie analizy obrazów oraz zainteresowanych kryminalistyką. Sherlock Holmes? – A po co to komu?"
-          }
-        ],
-        "image": "/img/traseology.jpg"
-      },
-      {
         "name": "Analytica Investments",
         "description": [
           {
@@ -60,20 +46,6 @@
           }
         ],
         "image": "/img/developer.jpg"
-      },
-      {
-        "name": "Traseology by Analytica",
-        "description": [
-          {
-            "header": "About the Project:",
-            "text": "This project aims to develop an application based on image analysis that matches forensic shoeprint fragments (parts of a shoe’s sole) to specific shoe models. As part of this initiative, we will seek collaboration with the police to gain access to the necessary database."
-          },
-          {
-            "header": "Who is it for?",
-            "text": "For those looking to gain knowledge and develop skills in image analysis, as well as for anyone interested in forensic science. Sherlock Holmes? Who needs him with us around?"
-          }
-        ],
-        "image": "/img/traseology.jpg"
       },
       {
         "name": "Analytica Investments",

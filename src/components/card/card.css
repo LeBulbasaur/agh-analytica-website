@@ -10,6 +10,11 @@
   margin-bottom: 1rem;
 }
 
+.card__body__high__contrast {
+  background-color: #060606;
+  border: 2px dashed white;
+}
+
 .card__body img {
   width: 375px;
   height: 200px;

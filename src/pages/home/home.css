@@ -1,5 +1,9 @@
+.home__container {
+  /* background-color: black; */
+}
+
 #information {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   width: 100%;
 }
 
@@ -10,6 +14,20 @@
 .main__statute {
   width: 100%;
   text-align: center;
+}
+
+.img__team__container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img__analytica__team {
+  width: 80%;
+  object-fit: contain;
+  border: 2px dashed #333;
 }
 
 .contact__form {

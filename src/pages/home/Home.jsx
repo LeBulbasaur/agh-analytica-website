@@ -9,12 +9,19 @@ function Home() {
   const main = language === "polish" ? mainText.polish : mainText.english;
 
   return (
-    <>
+    <div className="home__container">
       <section id="information">
         <h2>{main.about}</h2>
         {main.information.map((item, index) => (
           <p key={index}>{item}</p>
         ))}
+        <div className="img__team__container">
+          <img
+            src={process.env.PUBLIC_URL + "img/ekipa.jpg"}
+            alt="ekipa analytica"
+            className="img__analytica__team"
+          />
+        </div>
       </section>
       <section id="contact">
         <h2>{main.contact}</h2>
@@ -44,7 +51,7 @@ function Home() {
           </button>
         </form>
       </section>
-    </>
+    </div>
   );
 }
 

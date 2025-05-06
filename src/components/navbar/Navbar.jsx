@@ -1,7 +1,11 @@
 import "./navbar.css";
 import textContent from "../../text-content/navbar.json";
 import textProjects from "../../text-content/projects.json";
-import { LanguageContext, NavbarContext } from "../../context/context";
+import {
+  LanguageContext,
+  NavbarContext,
+  ContrastContext,
+} from "../../context/context";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { useWindowSize } from "../../hooks/useWindowSize";
@@ -11,6 +15,7 @@ export default function Navbar() {
   const [width] = useWindowSize();
   const { language, setLanguage } = useContext(LanguageContext);
   const { navbar, setNavbar } = useContext(NavbarContext);
+  const { contrast } = useContext(ContrastContext);
 
   const navigateSite = (e, path) => {
     e.preventDefault();
@@ -32,11 +37,19 @@ export default function Navbar() {
         transform: navbar ? "translateX(-100%)" : "none",
       }}
     >
-      <div className="navbar__box">
+      <div
+        className={`navbar__box ${contrast ? "navbar__high__contrast" : ""}`}
+      >
         <p>{text.contents}</p>
         <ol className="navbar__contents">
           <li>
-            <a href="/" onClick={(e) => navigateSite(e, "/")}>
+            <a
+              className={`navbar__link ${
+                contrast ? "navbar__high__contrast" : ""
+              }`}
+              href="/"
+              onClick={(e) => navigateSite(e, "/")}
+            >
               {text.items[0]}
             </a>
           </li>
@@ -49,6 +62,9 @@ export default function Navbar() {
                 <li key={index}>
                   -{" "}
                   <a
+                    className={`navbar__link ${
+                      contrast ? "navbar__high__contrast" : ""
+                    }`}
                     href={`project${index + 1}`}
                     onClick={(e) => navigateSite(e, `project${index + 1}`)}
                   >
@@ -58,16 +74,25 @@ export default function Navbar() {
               ))}
             </ul>
           </li>
-          <li>
+          {/* <li>
             <a
+              className={`navbar__link ${
+                contrast ? "navbar__high__contrast" : ""
+              }`}
               href="/recruitment"
               onClick={(e) => navigateSite(e, "/recruitment")}
             >
               {text.items[2]}
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="/#contact" onClick={(e) => navigateSite(e, "/#contact")}>
+            <a
+              className={`navbar__link ${
+                contrast ? "navbar__high__contrast" : ""
+              }`}
+              href="/#contact"
+              onClick={(e) => navigateSite(e, "/#contact")}
+            >
               {text.items[3]}
             </a>
           </li>

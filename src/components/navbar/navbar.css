@@ -38,14 +38,12 @@
   margin-left: -1rem;
 }
 
-.navbar__contents li a,
-.navbar__contents__projects a {
+.navbar__link {
   text-decoration: none;
   color: white;
 }
 
-.navbar__contents li a:hover,
-.navbar__contents__projects a:hover {
+.navbar__link:hover {
   text-decoration: underline;
 }
 
@@ -66,6 +64,12 @@
 
 .flag {
   cursor: pointer;
+}
+
+/* tutaj zmiana kolorów do kontrastu */
+.navbar__high__contrast {
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 900px) {

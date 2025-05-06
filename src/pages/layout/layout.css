@@ -1,10 +1,14 @@
 .Layout {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.Layout__contrast {
+  background-color: black;
+}
+
 .Layout__content {
   flex: 1;
   max-width: 1250px;
@@ -37,12 +41,48 @@
   flex: 3;
 }
 
+.contrast__button__container {
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.contrast__button {
+  border: 1px solid #141414;
+  border-radius: 36px;
+  font-size: 16px;
+  font-weight: 700;
+  height: 36px;
+  margin-right: 6px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contrast__button__off {
+  background-color: #141414;
+  color: #fff;
+}
+
+.contrast__button__on {
+  background-color: #fff;
+  color: #141414;
+}
+
 .main__body {
   flex: 6;
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  padding: 0 1rem 2rem 1rem;
+}
+
+.main__body__high__contrast {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .header__graphic {
@@ -73,7 +113,7 @@
   padding: 0 1rem 1rem 1rem;
 }
 
-footer {
+.footer {
   width: 100%;
   height: 75px;
   background-color: black;
@@ -91,16 +131,25 @@ footer {
   padding: 0.5rem 0;
 }
 
-footer p {
+.footer p {
   margin: 0;
 }
 
-footer a {
+.footer a {
   color: white;
 }
 
-footer a:hover {
+.footer a:hover {
   text-decoration: underline;
+}
+
+.footer__high__contrast {
+  background-color: white;
+  color: black;
+}
+
+.footer__high__contrast a {
+  color: black;
 }
 
 @media only screen and (min-width: 900px) {
